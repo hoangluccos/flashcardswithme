@@ -19,26 +19,70 @@ function Header() {
         borderRadius={"20px"}
       >
         <Button
-          className="text-[20px]! text-white! font-bold!"
           startIcon={<CreateNewFolderIcon />}
+          sx={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "#755893",
+            borderRadius: "10px",
+            "&:hover": {
+              backgroundColor: "#FFD700",
+              color: "black",
+            },
+            transition: "all 0.2s ease-in-out",
+          }}
         >
           ADD DESK
         </Button>
 
         <Button
-          className="text-[20px]! text-white! font-bold!"
+          sx={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "#755893",
+            borderRadius: "10px",
+            "&:hover": {
+              backgroundColor: "#FFD700",
+              color: "black",
+            },
+            transition: "all 0.2s ease-in-out",
+          }}
           startIcon={<ListAltIcon />}
         >
           VIEW ALL
         </Button>
         <Button
-          className="text-[20px]! text-white! font-bold!"
+          sx={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "#755893",
+            borderRadius: "10px",
+            "&:hover": {
+              backgroundColor: "#FFD700",
+              color: "black",
+            },
+            transition: "all 0.2s ease-in-out",
+          }}
           startIcon={<FindInPageIcon />}
         >
           REVIEW
         </Button>
         <Button
-          className="text-[20px]! text-white! font-bold!"
+          sx={{
+            fontSize: "20px",
+            fontWeight: "bold",
+            color: "white",
+            backgroundColor: "#755893",
+            borderRadius: "10px",
+            "&:hover": {
+              backgroundColor: "#FFD700",
+              color: "black",
+            },
+            transition: "all 0.2s ease-in-out",
+          }}
           startIcon={<AccountCircleIcon />}
         >
           USER
